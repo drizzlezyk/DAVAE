@@ -71,7 +71,7 @@ adata_davae.obsm['umap'] = data_emb
 plot.plot_davae_result(adata_davae)
 ```
 
-![avatar](/Users/zhongyuanke/Documents/graduated/integration/tutorial/label_01.png)
+![avatar](https://github.com/drizzlezyk/DAVAE/blob/master/result/hca/01.png)
 
 ```python 
 # plot marker genes
@@ -80,7 +80,7 @@ thresholds = [7, 4, 7, 4]
 plot.plot_gradient_marker_gene(data_emb, adata, gene_names, thresholds, 'UMAP', fig_size, 14, fig_path)
 ```
 
-<img src="/Users/zhongyuanke/data/dann_vae/hca/marker_save01.png" alt="avatar" style="zoom:68%;" />
+<img src="https://github.com/drizzlezyk/DAVAE/blob/master/result/hca/01.png" alt="avatar" style="zoom:68%;" />
 
 
 
