@@ -143,6 +143,7 @@ cluster2annotation_ifnb = {
 }
 sc.pl.umap(adata_davae, color=['batch', 'cell type'])
 ```
+<img src='https://github.com/drizzlezyk/DAVAE/blob/master/result/ifnb/control_marker.png'>
 
 
 
