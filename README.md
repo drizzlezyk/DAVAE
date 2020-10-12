@@ -72,11 +72,11 @@ sc.pl.umap(adata_davae, color=['batch', 'louvain'])
 
 ```
 
-![batch](/Users/zhongyuanke/data/dann_vae/hca/batch.png)
 
 
+<img src="https://github.com/drizzlezyk/DAVAE/blob/master/result/hca/batch.png" width="50%">
 
-![cluster33](/Users/zhongyuanke/data/dann_vae/hca/cluster33.png)
+<img src="https://github.com/drizzlezyk/DAVAE/blob/master/result/hca/cluster33.png" width="50%">
 
 ```python 
 # marker visualization
@@ -85,9 +85,7 @@ sc.pl.umap(adata_davae, color=['CD79A', 'S100A8', 'HPRT1', 'GNLY', 'CST3', 'CD3D
 
 ```
 
-![marker6](/Users/zhongyuanke/data/dann_vae/hca/marker6.png)
-
-
+<img src="https://github.com/drizzlezyk/DAVAE/blob/master/result/hca/marker6.png" width="50%">
 
 
 
@@ -157,9 +155,9 @@ sc.pl.umap(adata1, color=['TNFSF10', 'APOBEC3A', "CCL8", 'CXCL10', 'ISG15', 'LAG
            s=3, frameon=False, ncols=6, vmax='p99')
 ```
 
-![control_marker](/Users/zhongyuanke/data/dann_vae/ifnb/control_marker.png)
+<img src='https://github.com/drizzlezyk/DAVAE/blob/master/result/ifnb/control_marker.png'>
 
-![stim_markers](/Users/zhongyuanke/data/dann_vae/ifnb/stim_markers.png)
+<img src='https://github.com/drizzlezyk/DAVAE/blob/master/result/ifnb/stim_markers.png'>
 
 
 
