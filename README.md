@@ -85,7 +85,7 @@ sc.pl.umap(adata_davae, color=['CD79A', 'S100A8', 'HPRT1', 'GNLY', 'CST3', 'CD3D
 
 ```
 
-<img src="https://github.com/drizzlezyk/DAVAE/blob/master/result/hca/marker6.png" width="50%">
+<img src="https://github.com/drizzlezyk/DAVAE/blob/master/result/hca/marker6.png" width="80%">
 
 
 
