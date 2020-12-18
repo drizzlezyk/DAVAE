@@ -5,9 +5,6 @@ cache: packages
 os:
   - osx
 
-install:
-  - python3 setup.py build
-  - pip install .
  
 script:
-  - python -c "import davae"
+  - python setup.py test
