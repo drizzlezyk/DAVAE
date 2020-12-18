@@ -3,5 +3,11 @@ sudo: required
 cache: packages
 
 os:
-  - linux
   - osx
+
+install:
+  - python3 setup.py build
+  - pip install .
+ 
+script:
+  - python -c "import davae"
