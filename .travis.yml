@@ -1,0 +1,7 @@
+language: python
+sudo: required
+cache: packages
+
+os:
+  - linux
+  - osx
