@@ -2,7 +2,7 @@
 
 # Integration of scRNA-seq data using Domain adaption deep variational autoencoder(DAVAE)
 
-
+https://travis-ci.com/drizzlezyk/DAVAE.svg?token=xjQszw5hMG8ZGQ7oscBw&branch=master
 
 Single-cell transcriptomics allows us to observe cell status and identify cell types at the level of individual cells. With the development of single cell multi omics, a key analytical challenge is to integrate these data sets from different technologies and experiments to uncover biological insights. We present DAVAE, an unsupervised deep embedding algorithm that incorporate domain adaptation into the variational autoencoder to learn batch-invariant features, enabling us to integrate single-cell measurements across technologies and different modalities.
 
