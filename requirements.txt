@@ -7,3 +7,5 @@ pandas>=0.25
 scprep>=1.0
 scipy>=1.1.0
 matplotlib>=2.0.1
+python-igraph
+louvain
