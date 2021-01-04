@@ -2,7 +2,7 @@ from distutils.core import setup
 from setuptools import setup, find_packages
 
 install_requires = [
-      'numpy'
+      'numpy',
       'scanpy',
       'tensorflow',
       'scipy',
