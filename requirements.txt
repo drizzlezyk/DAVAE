@@ -1,5 +1,8 @@
+numpy
 scanpy
 tensorflow
+desc
+commonmark
 anndata
 scikit-learn>=0.19.1
 numpy>=1.14.0
