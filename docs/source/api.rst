@@ -3,8 +3,8 @@ API
 
 Preprocessing
 ---------------------
-.. automodule:: davae.utils.tools
-   :members: read_sc_data
+.. automodule:: davae.network.da_cvae
+   :members:
    :undoc-members: 
    :show-inheritance:
 
@@ -12,7 +12,7 @@ Preprocessing
 VIPCCA
 ---------------------
 
-.. automodule:: davae.network.da_cvae
+.. automodule:: davae.network.da_vae
    :members: DAVAE
    :undoc-members:
    :show-inheritance:

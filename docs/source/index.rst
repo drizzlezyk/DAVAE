@@ -10,7 +10,7 @@ Welcome to DAVAE's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-   api
+   davae
 
 
 Indices and tables

@@ -1,6 +1,18 @@
 from distutils.core import setup
 from setuptools import setup, find_packages
 
+install_requires = [
+      'numpy'
+      'scanpy',
+      'tensorflow',
+      'scipy',
+      'pandas',
+      'seaborn',
+      'python-igraph',
+      'louvain',
+      'desc',
+]
+
 setup(
     name='davae',
     version='0.0.3',
@@ -12,4 +24,5 @@ setup(
     author_email='yuanke.zhong@nwpu-bioinformatics.com',
     packages=find_packages(),
     platforms='any',
+    install_requires=install_requires,
 )
