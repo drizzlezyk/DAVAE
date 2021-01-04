@@ -12,7 +12,7 @@
 #
 # import os
 # import sys
-# sys.path.insert(0, os.path.abspath('.'))
+# sys.path.insert(0, os.path.abspath('../..'))
 
 
 # -- Project information -----------------------------------------------------
@@ -31,6 +31,13 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+'recommonmark',
+'sphinx.ext.todo', 
+'sphinx.ext.viewcode',  
+'sphinx.ext.autodoc',
+'sphinx.ext.autosummary',
+'sphinx.ext.napoleon',
+'sphinx.ext.coverage',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -59,6 +66,7 @@ html_static_path = ['_static']
 
 from recommonmark.parser import CommonMarkParser
 source_parsers = {
-    '.md': CommonMarkParser,
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
 }
 source_suffix = ['.rst', '.md']
