@@ -1,6 +1,6 @@
 
 
-# Integration of scRNA-seq data using Domain adaption deep variational autoencoder(DAVAE)
+# A versatile and scalable single-cell data integration algorithm based on domain-adversarial and variational approximation
 
 [![Build Status](https://travis-ci.com/drizzlezyk/DAVAE.svg?token=xjQszw5hMG8ZGQ7oscBw&branch=master)](https://travis-ci.com/drizzlezyk/DAVAE)
 [![Documentation Status](https://readthedocs.org/projects/davae/badge/?version=latest)](https://davae.readthedocs.io/en/latest/?badge=latest)
